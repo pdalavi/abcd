@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[TC01]]>
+    </line>
+    <line>
+      <![CDATA[TC02]]>
+    </line>
+    <line>
+      <![CDATA[TC03]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26869" started-at="2022-09-04T12:03:22 IST" finished-at="2022-09-04T12:03:49 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26869" started-at="2022-09-04T12:03:22 IST" finished-at="2022-09-04T12:03:49 IST">
+      <class name="testClasses.Test1">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testClasses.Test1@10a035a0]" name="launchBrowser" is-config="true" duration-ms="10779" started-at="2022-09-04T12:03:22 IST" finished-at="2022-09-04T12:03:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="refresh()[pri:0, instance:testClasses.Test1@10a035a0]" name="refresh" is-config="true" duration-ms="24" started-at="2022-09-04T12:03:33 IST" finished-at="2022-09-04T12:03:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method status="PASS" signature="tc01()[pri:0, instance:testClasses.Test1@10a035a0]" name="tc01" duration-ms="13140" started-at="2022-09-04T12:03:33 IST" finished-at="2022-09-04T12:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:testClasses.Test1@10a035a0]" name="result" is-config="true" duration-ms="10" started-at="2022-09-04T12:03:46 IST" finished-at="2022-09-04T12:03:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01 status=SUCCESS method=Test1.tc01()[pri:0, instance:testClasses.Test1@10a035a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TC01]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="refresh()[pri:0, instance:testClasses.Test1@10a035a0]" name="refresh" is-config="true" duration-ms="38" started-at="2022-09-04T12:03:46 IST" finished-at="2022-09-04T12:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method status="PASS" signature="tc02()[pri:0, instance:testClasses.Test1@10a035a0]" name="tc02" duration-ms="913" started-at="2022-09-04T12:03:46 IST" finished-at="2022-09-04T12:03:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:testClasses.Test1@10a035a0]" name="result" is-config="true" duration-ms="3" started-at="2022-09-04T12:03:47 IST" finished-at="2022-09-04T12:03:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02 status=SUCCESS method=Test1.tc02()[pri:0, instance:testClasses.Test1@10a035a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TC02]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="refresh()[pri:0, instance:testClasses.Test1@10a035a0]" name="refresh" is-config="true" duration-ms="1121" started-at="2022-09-04T12:03:47 IST" finished-at="2022-09-04T12:03:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method status="PASS" signature="tc03()[pri:0, instance:testClasses.Test1@10a035a0]" name="tc03" duration-ms="339" started-at="2022-09-04T12:03:48 IST" finished-at="2022-09-04T12:03:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03 -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:testClasses.Test1@10a035a0]" name="result" is-config="true" duration-ms="1" started-at="2022-09-04T12:03:49 IST" finished-at="2022-09-04T12:03:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03 status=SUCCESS method=Test1.tc03()[pri:0, instance:testClasses.Test1@10a035a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TC03]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testClasses.Test1@10a035a0]" name="close" is-config="true" duration-ms="377" started-at="2022-09-04T12:03:49 IST" finished-at="2022-09-04T12:03:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testClasses.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
